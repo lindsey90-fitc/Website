@@ -1,0 +1,118 @@
+body {
+padding: 0;
+margin: 0;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+
+
+}
+header {
+    background: rgb(255, 255, 255);
+    border-bottom: rgb(43, 32, 196) 10px solid;
+}
+.headercontainer {
+    display: flex;
+}
+
+header h1 {
+    color: black;
+    font-size: 60px;
+    margin: 10px; 
+
+}
+
+header h2 {
+    color: rgb(43, 32, 196);
+    font-size: 35px;
+    margin: 15px;
+}
+
+.nav-menu{
+    width: auto;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+
+}
+
+.nav-menu ul li{
+    display: inline-block;
+    margin: 0 15px 0 15px;
+    padding: 0 15px 0 15px;
+}
+
+.nav-menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+#bodycontainer .bc1{
+    width: 31%;
+    font-size: 15px;
+    float: left;
+    padding: 13.5px;
+    text-align: center;
+    
+}
+#bodycontainer .bc2{
+    width: 31%;
+    font-size: 15px;
+    float: left;
+    padding: 14px;
+    text-align: center;
+}
+#bodycontainer .bc3{
+    width: 31%;
+    font-size: 15px;
+    float: left;
+    padding: 10px;
+    text-align: center;
+}
+
+#review {
+    font-style: bold;
+    font-size: 35px;
+    color: rgb(81, 134, 233);
+    text-align: center;
+    margin-inline: 200px;
+    padding-top: 325px;
+}
+#reviewcust {
+    font-size: 15px;
+    padding-left: 35%;
+    padding-bottom: 40px;
+    align-items: center;
+    display: flex;
+    margin-top: 30px;
+}
+
+#footercontainer {
+    display: flex;
+    font-weight: 5px;
+    background-color: rgb(43, 32, 196);
+    font-size: 15px;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+
+.pictures {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding: 10px;
+
+
+}
+
+
+.info {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+
+}
